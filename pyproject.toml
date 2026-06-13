@@ -1,0 +1,9 @@
+[project]
+name = "roblox-userid-api"
+version = "1.0.0"
+dependencies = [
+    "requests"
+]
+
+[tool.vercel]
+entrypoint = "api.userid:handler"
