@@ -2,7 +2,7 @@
 
 One-click deploy:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_GITHUB_USERNAME/roblox-userid-api&env=SETUP_PASSWORD&envDescription=Enter%20the%20password%20your%20Roblox%20server%20must%20send%20to%20use%20this%20API&project-name=roblox-userid-api&repository-name=roblox-userid-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nextronout/roblox-userid-api&env=SETUP_PASSWORD&envDescription=Enter%20the%20password%20your%20Roblox%20server%20must%20send%20to%20use%20this%20API&project-name=roblox-userid-api&repository-name=roblox-userid-api)
 
 ## Roblox usage
 
