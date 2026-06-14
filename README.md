@@ -4,7 +4,19 @@ One-click deploy:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nextronout/roblox-userid-api&env=SETUP_PASSWORD&envDescription=Enter%20your%20private%20API%20password&project-name=roblox-userid-api&repository-name=roblox-userid-api)
 
-## Roblox usage
+## Server test page
+
+When you open your deployed Vercel API in the browser, you should see:
+
+```html
+<h1>If you see this, the server is set up! 👾</h1>
+<p>Use POST requests from Roblox to get User IDs.</p>
+```
+
+## Roblox usage examples
+
+<details>
+<summary>UserID of Builderman</summary>
 
 ```lua
 local HttpService = game:GetService("HttpService")
@@ -31,3 +43,6 @@ if Data.ok then
 else
 	print("Code " .. Data.code .. ", Reason: " .. Data.reason)
 end
+```
+
+</details>
