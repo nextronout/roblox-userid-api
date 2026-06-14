@@ -7,10 +7,10 @@ One-click deploy:
 ## Server test page
 
 When you open your deployed Vercel API in the browser, you should see:
-
+```html
 <h1>👾 Server is online 🟢</h1>
 <p>Username → UserID conversion API</p>
-
+```
 
 ## Roblox usage
 
