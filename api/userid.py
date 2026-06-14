@@ -59,19 +59,20 @@ class handler(BaseHTTPRequestHandler):
         <!DOCTYPE html>
         <html>
         <head>
+            <meta charset="UTF-8">
             <title>Roblox UserID API</title>
         </head>
         <body style="font-family: Arial; text-align: center; padding-top: 80px;">
-            <h1>If you see this, the server is set up! 👾</h1>
-            <p>Use POST requests from Roblox to get User IDs.</p>
+            <h1>👾 Server is online 🟢</h1>
+            <p>Username → UserID conversion API</p>
         </body>
         </html>
         """
 
         self.send_response(200)
-        self.send_header("Content-Type", "text/html")
+        self.send_header("Content-Type", "text/html; charset=utf-8")
         self.end_headers()
-        self.wfile.write(html.encode())
+        self.wfile.write(html.encode("utf-8"))
 
 
     def send_json(self, status, data):
