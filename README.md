@@ -15,7 +15,7 @@ When you open your deployed Vercel API in the browser, you should see:
 
 ## Roblox usage
 
-Make sure to have "Allow HTTP Requests" and "Enable Studio Access to API Services" enabled in Roblox Studio's Experience Settings.
+Make sure to have "Allow HTTP Requests" and "Enable Studio Access to API Services" are enabled in Roblox Studio's Experience Settings.
 <img width="1187" height="780" alt="image" src="https://github.com/user-attachments/assets/34590533-d552-4fb6-9a21-b9c4c6822e3b" />
 
 Create a new Script inside ServerScriptService and paste one of the scripts below to test the API.
