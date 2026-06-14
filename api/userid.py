@@ -54,6 +54,26 @@ class handler(BaseHTTPRequestHandler):
         except Exception as e:
             return self.send_json(500, {"ok": False, "code": 500, "reason": str(e)})
 
+    def do_GET(self):
+        html = """
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Roblox UserID API</title>
+        </head>
+        <body style="font-family: Arial; text-align: center; padding-top: 80px;">
+            <h1>If you see this, the server is set up! 👾</h1>
+            <p>Use POST requests from Roblox to get User IDs.</p>
+        </body>
+        </html>
+        """
+
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html")
+        self.end_headers()
+        self.wfile.write(html.encode())
+
+
     def send_json(self, status, data):
         self.send_response(status)
         self.send_header("Content-Type", "application/json")
